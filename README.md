@@ -9,5 +9,6 @@ run Z1_USCountiesAnalysis2_v2.m then Z1_USCounties_holdouttest.m to run the anal
 Dependencies:
 Matlab Statistical and machine learning tool box. Functions used from this tool box    
 * datasample
+  * datasample_alt.m is an alternative implementation to the toolbox function. To use this change line 15 of creatTestTrainSets_v2.m and line 6 of createTestSet.m
 * fitlm
 * ridge
